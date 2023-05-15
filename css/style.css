@@ -2,15 +2,17 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
 body {
     line-height: 1.5;
-    margin: 0 auto;
-    max-width: 120rem;
-    width: 90%;
+    width: 100%;
+    background-color: var(--fondo);
 }
 
 #titulo {
@@ -23,7 +25,7 @@ div.container {
 }
 
 .container-fluid {
-    margin-inline: 10%!important;
+    margin-inline: 10% !important;
 }
 
 
@@ -40,20 +42,22 @@ a.navbar-brand {
     margin-top: 10%;
 }
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    padding: 70px 20px;
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 50%;
-    height: 50%;
+.swiper-slide img {
     object-fit: cover;
-  }
+    width: 300px;
+    height: 300px;
+}
 
-  
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: black;
+}
