@@ -8,7 +8,52 @@ html {
 
 body {
     line-height: 1.5;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 90%;
+}
+
+#titulo {
+    color: black;
+    margin-top: 70px;
+}
+
+div.container {
+    padding: 0%;
+}
+
+.container-fluid {
+    margin-inline: 10%!important;
 }
 
 
+a.navbar-brand {
+    padding: 5px;
+    font-size: 30px;
+}
+
+/* Swiper js*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  
