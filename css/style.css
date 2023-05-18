@@ -88,7 +88,7 @@ a.navbar-brand {
     font-family: 'Tenor Sans', sans-serif;
     font-size: 40px;
     margin-top: 10%;
-    padding: 50px;
+    padding: 90px;
 }
 
 .info-nosotros {
@@ -96,7 +96,7 @@ a.navbar-brand {
     font-size: 20px;
     margin-inline: 10%;
     display: flex;
-    padding: 50px;
+    padding: 40px 200px 40px 200px;
 }
 
 .info-nosotros p {
@@ -155,10 +155,14 @@ a.navbar-brand {
 
 
 
-@media (max-width: 1173px) {
+@media (max-width: 1503px) {
 
     .info-nosotros p {
         font-size: 15px;
+    }
+
+    .info-nosotros {
+        padding: 40px;
     }
 
 
