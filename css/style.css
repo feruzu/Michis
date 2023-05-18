@@ -15,13 +15,16 @@ body {
     background-color: var(--fondo);
 }
 
+
+/* Seccion Inicio */
+
 #titulo {
     color: black;
     margin-top: 140px;
     display: flex;
     justify-content: center;
     font-family: 'Tenor Sans', sans-serif;
-    font-size: 50px;    
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -73,14 +76,95 @@ a.navbar-brand {
 }
 
 
+/* Seccion Nosotros */
+
+#nosotros {
+    background-color: #252525;
+}
+
+.titulo-nosotros {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 10%;
+    padding: 50px;
+}
+
+.info-nosotros {
+    color: #ffffff;
+    font-size: 20px;
+    margin-inline: 10%;
+    display: flex;
+    padding: 50px;
+}
+
+.info-nosotros p {
+    padding: 40px;
+    background-color: #313131;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+}
+
+.info-nosotros img {
+    width: 50%;
+    height: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.segundo-div img {
+    display: block;
+    margin: auto;
+}
 
 
 
 
 /*      RESPONSIVE      */
-@media (max-width: 720px) { 
+@media (max-width: 1000px) {
 
-     #titulo {
+    #titulo {
         margin-top: 100px;
-     }
+    }
+
+    .info-nosotros {
+        display: block;
+        padding: 0;
+    }
+
+    .info-nosotros p {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+
+    }
+
+
+    .info-nosotros img {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+
 }
+
+
+
+@media (max-width: 1173px) {
+
+    .info-nosotros p {
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 720px) {}
+
+@media (max-width: 480px) {}
