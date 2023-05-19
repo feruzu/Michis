@@ -96,7 +96,7 @@ a.navbar-brand {
     font-size: 20px;
     margin-inline: 10%;
     display: flex;
-    padding: 40px 200px 40px 200px;
+    padding: 40px 200px 100px 200px;
 }
 
 .info-nosotros p {
@@ -121,6 +121,38 @@ a.navbar-brand {
 }
 
 
+
+
+/* Seccion Adopción */
+
+#adopcion {
+    margin-inline: 10%;
+}
+
+.titulo-adopcion, #adopcion span {
+    color: #313131;
+    text-align: center;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 10%;
+    padding: 40px 40px 0px 40px;
+    font-weight: bold;
+}
+
+#adopcion span {
+    color: #FA5F1A;
+    letter-spacing: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.adopcion-requisitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 20px;
+    
+}
 
 
 /*      RESPONSIVE      */
