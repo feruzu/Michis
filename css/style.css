@@ -75,6 +75,10 @@ a.navbar-brand {
     background-color: black;
 }
 
+#inicio {
+    padding: 1%;
+}
+
 
 /* Seccion Nosotros */
 
@@ -127,14 +131,16 @@ a.navbar-brand {
 
 #adopcion {
     margin-inline: 10%;
+    padding: 5%;
 }
 
-.titulo-adopcion, #adopcion span {
+.titulo-adopcion,
+#adopcion span {
     color: #313131;
     text-align: center;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 40px;
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 40px 40px 0px 40px;
     font-weight: bold;
 }
@@ -146,13 +152,24 @@ a.navbar-brand {
     margin: 0 auto;
 }
 
-.adopcion-requisitos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 70px 20px;
-    
+#requisitos-adopcion .card {
+    border: none;
+    position: relative;
+    padding: 50px 20px 40px 20px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    transition: .5s;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 60px;
 }
+
+#requisitos-adopcion {
+    margin-top: 100px;
+}
+
+
 
 
 /*      RESPONSIVE      */
@@ -187,6 +204,17 @@ a.navbar-brand {
 
 
 
+/* Iconos adoptar */
+
+#requisitos-adopcion img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -70px;
+}
+
+
+
 @media (max-width: 1503px) {
 
     .info-nosotros p {
@@ -201,6 +229,14 @@ a.navbar-brand {
 }
 
 
-@media (max-width: 720px) {}
+@media (max-width: 480px) {
+    
+    .titulo-adopcion, #adopcion span {
+        font-size: 30px;
+    }
 
-@media (max-width: 480px) {}
+   #adopcion span {
+        letter-spacing: 10px;
+        font-size: 30px;
+    }
+}
