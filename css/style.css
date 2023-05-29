@@ -69,6 +69,7 @@ a.navbar-brand {
     object-fit: cover;
     width: 300px;
     height: 300px;
+    cursor: pointer;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -230,7 +231,45 @@ a.navbar-brand {
 }
 
 
+/*  Columna informacion gatos */
 
+
+#titulo-michi span {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#tabla-michis {
+    width: 40%;
+    margin-top: 5%;
+    padding: 50px;
+    border-radius: 10px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    margin-bottom: 5%;
+}
+
+
+#tabla-michis .col {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #313131;
+}
+
+#tabla-michis .col:nth-last-child(1), #tabla-michis .col:nth-last-child(2) {
+    border-bottom: none;
+}
+
+#tabla-michis img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#col-cat:nth-last-child(2) {
+    margin-top: 10%;
+}
 
 /* Responsive */
 
@@ -245,11 +284,48 @@ a.navbar-brand {
         padding: 40px;
     }
 
+    #tabla-michis {
+        width: 70%;
+    }
+
 
 }
 
+@media (max-width: 900px) { 
 
-@media (max-width: 480px) {
+    #tabla-michis {
+        width: 80%;
+    }
+     
+}
+
+@media (max-width: 790px) { 
+    #tabla-michis img {
+        width: 250px;
+    }
+
+    #tabla-michis {
+        width: 80%;
+    }
+
+    #col-cat {
+        position: absolute;
+        display: contents;
+    }
+
+    .titulo-adopcion,
+    #adopcion span {
+        font-size: 40px;
+    }
+
+    #adopcion span {
+        letter-spacing: 10px;
+        font-size: 40px;
+    } 
+}
+
+
+ @media (max-width: 480px) {
 
     .titulo-adopcion,
     #adopcion span {
@@ -259,5 +335,7 @@ a.navbar-brand {
     #adopcion span {
         letter-spacing: 10px;
         font-size: 30px;
-    }
-}
+    } 
+
+} 
+ 
