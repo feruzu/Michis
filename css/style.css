@@ -277,12 +277,61 @@ a.navbar-brand {
     margin: 0 auto;
     padding: 50px;
     margin-bottom: 5%;
+    border: none;
+}
+
+#form-info input,
+#form-info textarea,
+#form-info input:focus,
+#form-info select:focus,
+#form-info select,
+#form-info input.form-control:focus,
+#form-info textarea:focus,
+#form-info textarea:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    background-color: #25252511;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+label.form-label {
+    font-weight: 500;
 }
 
 #boton {
     display: flex;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: center; 
+}
+.btn.btn-primary {
+    background-color: #252525;  
+    border: none;
+    width: 50%;
+    padding: 10px;
+    margin-top: 8%;
+    border-radius: 20px;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+    opacity: 60%;
+    background-color: #252525!important;
+}
+
+.btn.btn-primary:active {
+    background-color: #252525!important;
+    opacity: 100%;
 }
 
 /* Responsive */
@@ -302,6 +351,10 @@ a.navbar-brand {
         width: 70%;
     }
 
+    #form-info {
+        width: 80%;
+    }
+
 
 }
 
@@ -310,6 +363,12 @@ a.navbar-brand {
     #tabla-michis {
         width: 80%;
     }
+
+    
+    #form-info {
+        width: 90%;
+    }
+
      
 }
 
@@ -336,6 +395,14 @@ a.navbar-brand {
         letter-spacing: 10px;
         font-size: 40px;
     } 
+
+    .btn.btn-primary {
+        width: 100%;
+    }
+
+    #form-info {
+        width: 90%;
+    }
 }
 
 
@@ -350,6 +417,11 @@ a.navbar-brand {
         letter-spacing: 10px;
         font-size: 30px;
     } 
+   
+    #form-info {
+        width: 100%;
+    }
+
 
 } 
  
