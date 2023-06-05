@@ -228,6 +228,7 @@ a.navbar-brand {
 
 #footer p {
     margin: 0;
+    margin: 15px;
 }
 
 
@@ -329,13 +330,13 @@ label.form-label {
     background-color: #252525!important;
 }
 
-.btn.btn-primary:active {
+/* .btn.btn-primary:active {
     background-color: #252525!important;
     opacity: 100%;
-}
+} */
 
 #informacion-adopcion {
-    padding: 35px;
+    padding: 15px;
 }
 
 #informacion-adopcion img {
