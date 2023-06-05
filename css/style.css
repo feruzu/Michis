@@ -254,7 +254,8 @@ a.navbar-brand {
     border-bottom: 2px solid #313131;
 }
 
-#tabla-michis .col:nth-last-child(1), #tabla-michis .col:nth-last-child(2) {
+#tabla-michis .col:nth-last-child(1),
+#tabla-michis .col:nth-last-child(2) {
     border-bottom: none;
 }
 
@@ -294,13 +295,15 @@ a.navbar-brand {
     background-color: #25252511;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-input[type=number] { -moz-appearance:textfield; }
+input[type=number] {
+    -moz-appearance: textfield;
+}
 
 label.form-label {
     font-weight: 500;
@@ -309,10 +312,11 @@ label.form-label {
 #boton {
     display: flex;
     margin: 0 auto;
-    justify-content: center; 
+    justify-content: center;
 }
+
 .btn.btn-primary {
-    background-color: #252525;  
+    background-color: #252525;
     border: none;
     width: 50%;
     padding: 10px;
@@ -323,7 +327,7 @@ label.form-label {
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
     opacity: 60%;
-    background-color: #252525!important;
+    background-color: #252525 !important;
 }
 
 #informacion-adopcion {
@@ -331,16 +335,16 @@ label.form-label {
 }
 
 #informacion-adopcion img {
-width: 25px;
-cursor: pointer;
-margin: 15px;
+    width: 25px;
+    cursor: pointer;
+    margin: 15px;
 }
 
 #informacion-adopcion img:hover {
-    opacity: 40%;  
+    opacity: 40%;
 }
-    
-#contactanos h3{
+
+#contactanos h3 {
     text-align: center;
     padding: 5%;
     font-size: 40px;
@@ -372,21 +376,21 @@ margin: 15px;
 
 }
 
-@media (max-width: 900px) { 
+@media (max-width: 900px) {
 
     #tabla-michis {
         width: 80%;
     }
 
-    
+
     #form-info {
         width: 90%;
     }
 
-     
+
 }
 
-@media (max-width: 790px) { 
+@media (max-width: 790px) {
     #tabla-michis img {
         width: 250px;
     }
@@ -408,7 +412,7 @@ margin: 15px;
     #adopcion span {
         letter-spacing: 10px;
         font-size: 40px;
-    } 
+    }
 
     .btn.btn-primary {
         width: 100%;
@@ -420,7 +424,7 @@ margin: 15px;
 }
 
 
- @media (max-width: 480px) {
+@media (max-width: 480px) {
 
     .titulo-adopcion,
     #adopcion span {
@@ -430,12 +434,11 @@ margin: 15px;
     #adopcion span {
         letter-spacing: 10px;
         font-size: 30px;
-    } 
-   
+    }
+
     #form-info {
         width: 100%;
     }
 
 
-} 
- 
+}
