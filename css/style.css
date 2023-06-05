@@ -247,6 +247,10 @@ a.navbar-brand {
     margin-bottom: 5%;
 }
 
+#tabla-michis span {
+    font-weight: bold;
+}
+
 
 #tabla-michis .col {
     text-align: left;
