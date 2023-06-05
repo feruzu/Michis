@@ -83,10 +83,6 @@ a.navbar-brand {
 
 /* Seccion Nosotros */
 
-#nosotros {
-    background-color: #252525;
-}
-
 .titulo-nosotros {
     color: #ffffff;
     text-align: center;
@@ -329,11 +325,6 @@ label.form-label {
     opacity: 60%;
     background-color: #252525!important;
 }
-
-/* .btn.btn-primary:active {
-    background-color: #252525!important;
-    opacity: 100%;
-} */
 
 #informacion-adopcion {
     padding: 15px;
