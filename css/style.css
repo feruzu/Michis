@@ -334,6 +334,21 @@ label.form-label {
     opacity: 100%;
 }
 
+#informacion-adopcion {
+    padding: 35px;
+}
+
+#informacion-adopcion img {
+width: 25px;
+cursor: pointer;
+margin: 15px;
+}
+
+#informacion-adopcion img:hover {
+    opacity: 40%;  
+}
+    
+
 /* Responsive */
 
 
