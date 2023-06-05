@@ -348,6 +348,13 @@ margin: 15px;
     opacity: 40%;  
 }
     
+#contactanos h3{
+    text-align: center;
+    padding: 5%;
+    font-size: 40px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+}
 
 /* Responsive */
 
